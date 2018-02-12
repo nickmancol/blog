@@ -31,7 +31,7 @@ SOCIAL = (('You can add links in your config file', '#'),
 
 DEFAULT_PAGINATION = 10
 
-THEME = "./pelican-themes/pelican-striped-html5up"
+THEME = "./themes/pelican-striped-html5up"
 
 PLUGINS = ['assets', 'sitemap', 'gravatar'
            , 'neighbors'
