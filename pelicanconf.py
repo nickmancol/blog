@@ -31,5 +31,10 @@ SOCIAL = (('You can add links in your config file', '#'),
 
 DEFAULT_PAGINATION = 10
 
+THEME = "./pelican-themes/pelican-striped-html5up"
+
+PLUGINS = ['assets', 'sitemap', 'gravatar'
+           , 'neighbors'
+           ]
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
