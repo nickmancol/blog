@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'Nicolas Bohorquez'
-SITENAME = 'Cosmonaut Coder Blog'
+SITENAME = 'Data cosmonaut'
 SITEURL = ''
 
 PATH = 'content'
@@ -22,6 +22,8 @@ AUTHOR_FEED_RSS = None
 # Blogroll
 LINKS = (('CV', 'https://nicolasbohorquez.netlify.com/'),
          ('MADAS', 'http://madas.carloalberto.org/'),
+         ('Tiempo Fuera', 'https://tiempofuera.wordpress.com/'),
+         ('VidaNP', 'https://vidanp.wordpress.com/'),
          ('Roel Pi', 'http://jinja.pocoo.org/'),)
 
 # Social widget
