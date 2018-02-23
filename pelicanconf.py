@@ -27,16 +27,27 @@ LINKS = (('CV', 'https://nicolasbohorquez.netlify.com/'),
          ('Roel Pi', 'http://jinja.pocoo.org/'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('CV', 'https://nicolasbohorquez.netlify.com'),
+          ('Github', 'https://github.com/nickmancol'),
+          ('Linkedin', 'https://github.com/l/nickmancol'),
+          ('Twitter', 'https://twitter.com/nickmancol'),
+          ('MADAS', 'http://madas.carloalberto.org/'),
+          ('Tiempo Fuera', 'https://tiempofuera.wordpress.com/'),
+          ('VidaNP', 'https://vidanp.wordpress.com/'),
+          ('Roel Pi', 'http://jinja.pocoo.org/'),)
 
 DEFAULT_PAGINATION = 10
 
-THEME = "./themes/pelican-striped-html5up"
+THEME = "./themes/gum"
+DISPLAY_PAGES_ON_MENU = False
+DISPLAY_CATEGORIES_ON_MENU = True
 
 PLUGIN_PATHS = ['./pelican-plugins']
-PLUGINS = ['sitemap', 'gravatar'
-           , 'neighbors'
+PLUGINS = ['assets', 'sitemap', 'gravatar'
+           , 'neighbors', 'related_posts', 'series'
            ]
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+DEFAULT_METADATA = {
+    'status': 'draft',
+}
