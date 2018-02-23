@@ -7,7 +7,7 @@ SITENAME = 'Data cosmonaut'
 SITEURL = ''
 
 PATH = 'content'
-
+STATIC_PATHS = ['images', 'pdfs']
 TIMEZONE = 'America/Bogota'
 
 DEFAULT_LANG = 'en'
@@ -39,7 +39,7 @@ SOCIAL = (('CV', 'https://nicolasbohorquez.netlify.com'),
 DEFAULT_PAGINATION = 10
 
 THEME = "./themes/gum"
-DISPLAY_PAGES_ON_MENU = False
+DISPLAY_PAGES_ON_MENU = True
 DISPLAY_CATEGORIES_ON_MENU = True
 
 PLUGIN_PATHS = ['./pelican-plugins']
