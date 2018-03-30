@@ -21,26 +21,23 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS = (('CV', 'https://nicolasbohorquez.netlify.com/'),
-         ('MADAS', 'http://madas.carloalberto.org/'),
          ('Tiempo Fuera', 'https://tiempofuera.wordpress.com/'),
          ('VidaNP', 'https://vidanp.wordpress.com/'),
-         ('Roel Pi', 'http://jinja.pocoo.org/'),)
+         ('Roel Pi', 'http://roelpeters.be/'),)
 
 # Social widget
-SOCIAL = (('CV', 'https://nicolasbohorquez.netlify.com'),
-          ('Github', 'https://github.com/nickmancol'),
-          ('Linkedin', 'https://github.com/l/nickmancol'),
-          ('Twitter', 'https://twitter.com/nickmancol'),
-          ('MADAS', 'http://madas.carloalberto.org/'),
+SOCIAL = (('CV', 'https://nicolasbohorquez.com'),
           ('Tiempo Fuera', 'https://tiempofuera.wordpress.com/'),
           ('VidaNP', 'https://vidanp.wordpress.com/'),
-          ('Roel Pi', 'http://jinja.pocoo.org/'),)
+          ('Roel Pi', 'http://roelpeters.be/'),)
 
 DEFAULT_PAGINATION = 10
 
 THEME = "./themes/gum"
 DISPLAY_PAGES_ON_MENU = True
 DISPLAY_CATEGORIES_ON_MENU = True
+GOOGLE_ANALYTICS_ID = 'UA-116705941-3'
+GOOGLE_ANALYTICS_SITENAME = 'Data Cosmonaut'
 
 PLUGIN_PATHS = ['./pelican-plugins']
 PLUGINS = ['assets', 'sitemap', 'gravatar'
